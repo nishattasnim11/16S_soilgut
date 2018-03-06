@@ -1,5 +1,5 @@
 # Gut microbiome of C57BL/6 mice exposed to forest and urban soil
-Sequences, processing files, otu tables and metadata for the 16S Inuit gut project. Data was processed using QIIME 1.9.0
+Sequences, processing files, otu tables and metadata for the 16S  SoilGut project. Data was processed using QIIME 1.9.0
 ##Sequencing data Raw MiSeq sequencing data can be found in the 0_raw_reads folder.
 
 ##Library split Libraries were split using split_libraries_fastq.py script in QIIME 1.9.0
