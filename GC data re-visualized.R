@@ -154,6 +154,8 @@ weight=c(0.10435637,
 
 weeks=c(3,3,3,3,3,3,3,3,3,3,3,3,6,6,6,6,6,6,6,6,6,6,6,6,3,3,3,3,3,3,3,3,3,3,3,3,6,6,6,6,6,6,6,6,6,6,6,6,3,3,3,3,3,3,3,3,3,3,3,3,6,6,6,6,6,6,6,6,6,6,6,6)
 
+df=data.frame(SCFA,weight)
+
 ##plotting grouped bar chart of mean %weight value with SD error bars 
 df1  = transform(Forest, mean=rowMeans(df[cols]), sd=apply(df[cols],1, sd))
 
