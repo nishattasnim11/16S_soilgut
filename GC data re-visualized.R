@@ -269,7 +269,6 @@ pdf(paste(pdffile,sep=""), paper="letter", width=8, height=8)
 multiplot(Aceticplot,Propionicplot, Butyricplot,cols = 1)
 dev.off()
 
-##take Treg photos, print thesis version and start writing edits
 
 
 
